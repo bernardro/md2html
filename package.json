@@ -1,0 +1,23 @@
+{
+  "name": "md2html4mc",
+  "version": "1.0.0",
+  "description": "Markdown subset to HTML5 converter",
+  "scripts": {
+    "convert": "node ./src/app.js",
+    "test": "jest ./test/converter.test.js"
+  },
+  "keywords": [
+    "markdown",
+    "HTML5",
+    "converter"
+  ],
+  "author": "Bernard Okoth <bernardo@sonkomail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "line-reader": "^0.4.0"
+  }
+}
